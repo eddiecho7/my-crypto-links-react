@@ -1,0 +1,59 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px; 
+}
+
+.waveCount {
+  text-align: center;
+  margin-top: 16px;
+  padding: 8px;
+  color: gray;
+  font-size: 14px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.loadingMsg {
+  text-align: center;
+  margin-top: 16px;
+  padding: 8px;
+  color: gray;
+  font-size: 14px;
+}
+
+.msgInput {
+  margin-top: 16px;
+  padding: 4px;
+  color: gray;
+  font-size: 14px;
+}
