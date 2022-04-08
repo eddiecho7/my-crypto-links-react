@@ -18,18 +18,10 @@
   font-weight: 600;
 }
 
-.bio {
+.intro {
   text-align: center;
   color: gray;
   margin-top: 16px;
-}
-
-.waveButton {
-  cursor: pointer;
-  margin-top: 16px;
-  padding: 8px;
-  border: 0;
-  border-radius: 5px; 
 }
 
 .waveCount {
@@ -51,9 +43,27 @@
   font-size: 14px;
 }
 
+.linkInput {
+  margin-top: 16px;
+  padding: 4px;
+  color: gray;
+  font-size: 14px;
+}
+
 .msgInput {
   margin-top: 16px;
   padding: 4px;
   color: gray;
   font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.submitButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px; 
 }
